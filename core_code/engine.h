@@ -10,7 +10,6 @@ public:
     void onNewOrder(const Order& o);
     void onCancel(const Ticker& t, OrderID id);
     bool onCancel(OrderID id);
-
     void runMatching();
 
 private:
