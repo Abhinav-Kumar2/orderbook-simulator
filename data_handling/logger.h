@@ -6,7 +6,7 @@
 
 using namespace std;
 
-void log(const string& msg) { // Log messages with timestamp
+inline void log(const string& msg) { // Log messages with timestamp
     using namespace chrono;
     auto now = system_clock::now();
     auto t = system_clock::to_time_t(now);
